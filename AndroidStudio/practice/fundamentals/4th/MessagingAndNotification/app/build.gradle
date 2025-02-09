@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion androidSdkVersion
-    buildToolsVersion androidBuildToolsVersion
 
     defaultConfig {
         applicationId "jp.mixi.practice.messagingandnotification"
@@ -20,5 +19,5 @@ android {
 }
 
 dependencies {
-    compile "com.android.support:appcompat-v7:${supportLibVersion}"
+    implementation "com.android.support:appcompat-v7:${supportLibVersion}"
 }
